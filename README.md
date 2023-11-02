@@ -2,10 +2,6 @@
 
 Okapi is the image generation API for [IdleRPG](https://git.travitia.xyz/Kenvyra/IdleRPG). It uses [actix-web](https://github.com/actix/actix-web) and [image-rs](https://github.com/image-rs/image) under the hood.
 
-## Running it
-
-There is a [podman image](https://quay.io/repository/gelbpunkt/okapi) for okapi.
-
 There are several environment variables to configure it:
 
 - `PORT` sets the port to listen on. Defaults to 3000
